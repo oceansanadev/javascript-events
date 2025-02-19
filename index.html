@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Javascript Events</title>
+  </head>
+  <body>
+    <h1 class="title">Javascript Events</h1>
+
+    <div class="container">
+      <div>
+        <h2>OnMouseover</h2>
+        <p>Mouse over to change button background color</p>
+        <button onmouseover="mouseOver(event)" class="event-btn">
+          Mouse Over
+        </button>
+      </div>
+
+      <div>
+        <h2>OnMouseout</h2>
+        <p>Mouse over to change button background color</p>
+        <button onmouseout="mouseOut(event)" class="event-btn">
+          Mouse Out
+        </button>
+      </div>
+
+      <div>
+        <h2>OnClick</h2>
+        <p>Click to change button background color</p>
+        <button onclick="mouseClick(event)" class="event-btn">
+          Mouse Click
+        </button>
+      </div>
+
+      <div>
+        <h2>OnDoubleClick</h2>
+        <p>Double click to change button background color</p>
+        <button ondblclick="mouseDoubleClick(event)" class="event-btn">
+          Double Click
+        </button>
+      </div>
+
+      <div>
+        <h2>OnFocus</h2>
+        <p>Click to change input background color</p>
+        <input type="text" onfocus="inputOnFocus(event)" />
+      </div>
+
+      <div>
+        <h2>OnBlur</h2>
+        <p>Change lowercase to uppercase onblur events</p>
+        <input type="text" onblur="inputOnBlur(event)" />
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

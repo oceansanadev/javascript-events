@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+  /* background-color: aqua; */
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 3rem;
+  justify-content: space-around;
+}
+
+.container div {
+  /* border: 1px solid black; */
+  text-align: center;
+}
+
+.event-btn {
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: rgb(231, 80, 80);
+  color: white;
+}
+
+.active {
+  background-color: indigo;
+  color: white;
+}
+
+input[type="text"] {
+  width: 100%;
+  display: block;
+}
